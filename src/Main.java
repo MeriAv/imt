@@ -3,8 +3,8 @@ public class Main {
         BmiService service = new BmiService();
         int wt = 67;
         int high = 169;
-        float Test1 = service.BmiService(wt,high);
+        float result = service.calculate(67, 169);
 
-        System.out.println(Test1);
+        System.out.println(result);
     }
 }
